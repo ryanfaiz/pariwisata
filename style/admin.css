@@ -1,0 +1,106 @@
+:root{
+    --primary: rgb(127, 188, 210);
+    --secondary: rgb(165, 241, 233);
+    --third: rgb(225, 255, 238);
+    --fourth: rgb(255, 238, 175);
+}
+
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: relative;
+    display: block;
+    padding: 25px;
+}
+
+.header-con{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+
+.icon{
+    max-width: 48px;
+}
+
+.nav-con{
+    display: none;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    text-decoration-line: inherit;
+    text-decoration-style: inherit;
+    text-decoration-color: inherit;
+}
+
+button{
+    color: white;
+    font-size: medium;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+table{
+    margin: 25px;
+    max-width: 80%;
+}
+
+h1{
+    margin-left: 25px;
+}
+
+.result {
+    text-align: center;
+}
+
+section a{
+    margin: 25px;
+}
+
+.result img{
+    margin: 25px;
+    max-width: 200px;
+}
+
+td img{
+    max-width: 50px;
+}
+
+@media (min-width: 650px){
+    .nav-con{
+        display: block;
+        min-width: 360px;
+    }
+
+    .result img{
+        max-width: 400px;
+    }
+
+}
+
+@media (min-width: 850px){
+    .result img{
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1050px){
+    .result img{
+        max-width: 800px;
+    }
+}

@@ -1,0 +1,79 @@
+:root{
+    --primary: rgb(127, 188, 210);
+    --secondary: rgb(165, 241, 233);
+    --third: rgb(225, 255, 238);
+    --fourth: rgb(255, 238, 175);
+}
+
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: relative;
+    display: block;
+    padding: 25px;
+}
+
+.header-con{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+
+.icon{
+    max-width: 48px;
+}
+
+.nav-con{
+    display: none;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    text-decoration-line: inherit;
+    text-decoration-style: inherit;
+    text-decoration-color: inherit;
+}
+
+button{
+    color: white;
+    font-size: medium;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+form{
+    width: 80%;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-style: outset;
+    border-color: black black black black;
+    border-radius: 25px;
+    text-align: left;
+    width: fit-content;
+    position: absolute;
+    justify-content: center;
+}
+
+@media (min-width: 650px){
+    .nav-con{
+        display: block;
+        min-width: 360px;
+    }
+
+}

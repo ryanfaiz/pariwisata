@@ -1,0 +1,1 @@
+sudo rm -r /var/www/html/* && sudo cp -r /home/ryan/Documents/pariwisata-web/* /var/www/html/
